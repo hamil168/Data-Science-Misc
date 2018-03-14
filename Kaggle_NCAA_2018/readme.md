@@ -40,6 +40,6 @@ Reuse my model
  - I chose to provide only 2 each: 
   - Default Catboost params (its good)
   - "Optimized" parameters
-  - Notebooks have graphs comparing training vs cv logloss
+  - Notebooks have graphs comparing training vs cv logloss **(The ones in Widgets for Catboost do not show up)**
 
 
