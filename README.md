@@ -1,7 +1,5 @@
 # Learning-Data-Science
 
-A collection of work from courses I have taken.
+A collection of work from courses I have taken, projects I have worked on, and challenges I have explored. 
 
-My Kaggle Profile: https://www.kaggle.com/hamil168
-
-The EdX Capstone forbid code sharing, so the report is provided as a pdf instead.
+Material spans everything from machine learning to deliberate practice of fundamentals.
