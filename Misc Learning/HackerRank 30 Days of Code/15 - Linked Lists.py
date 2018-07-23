@@ -1,10 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-
+HackerRank 30 days of Code 15 - LinkedLists
 
 Created on Sun Jul 22 23:56:15 2018
 
 @author: DRB4
+
+Task: Complete insert function so it creates a new Node and inserts it
+at the tail of the linked list referenced by the head parameter
+Once new node is added, return the reference to the head node
+
+
+
 """
 
 class Node:
@@ -32,20 +39,17 @@ class Solution:
         # head starts as None, the first value of data represents
         # the length of the following values, and is not needed for the
         # linked list. 
-        #
-        # Created a hack to get to the second element that ignores the 
-        # first data point.
 
         # Begin hack
         # Event 0: assign head to a "blank" node
-        #placeholder = -99999 
         if  head == None:
-            #head = Node(placeholder)
             head = Node(data)
+        
         # Event 1: first Node becomes second data point
         #elif  head.data == placeholder:
             # hack way of getting at second element
             #head.data = data
+        
         # Event 2: start at beginning of head
         # step through, checking to see if .next is NONE
         # if it is None, that's where you insert the next Node.
@@ -57,6 +61,7 @@ class Solution:
                     break
                 else:
                     current = current.next          
+        
         # Event 3: return unmodified head
         # the Node additions will be included in the class properties
         return head
@@ -69,3 +74,6 @@ for i in range(T):
     data=int(input())
     head=mylist.insert(head,data)    
 mylist.display(head); 	 
+
+# TEST CASES (first input value is length of input that follows)
+# input 4 \n 2 \n 3 \n 4\n 1\n output [2 3 4 1]

@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """
+Hacker Rank 30 Days of Code Day 16 - Exceptions Strings to Integers
+
 Created on Sun Jul 22 23:59:13 2018
 
 @author: DRB4
