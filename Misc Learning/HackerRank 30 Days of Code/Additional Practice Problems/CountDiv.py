@@ -36,8 +36,6 @@ def solution(A, B, K):
 
     return ( (B - A)// K  + 1)
 
-    pass
-
 
 """
 RESULT:
@@ -50,3 +48,26 @@ Failed on: A=B in {0,1}, K = 11 for A=B=1 got 1 expected 0
 )
 Failed o A=101, B = 123M, K = 10K  (Got 12346 expected 12345)
 """
+
+
+def solution2(A, B, K):
+    # write your code in Python 3.6
+    # B is inclusive.... so 0 to 10k is 10k+1
+
+    # Floor returns the integer part of the division result
+    # e.g. 9 // 2 = 4
+
+    # Modulo returns remainder part of the division result
+    # e.g. 9 % 2 = 1
+
+    # edge cases: A, B small (1)...
+    # edge case A,B same
+    # edge case: B >> A  (0 to 10k, 1)
+    # edge case B > A, Large K
+
+    # the max(A%K,2) is saying it will take the highest
+    # max(A%K,K) means "give the remainder of A%K,
+    # but count 0 as a full K instead of 0
+    return ( ((B-A) + max(A%K, K)) // K)
+
+"""RESULT: Exactly the same. """

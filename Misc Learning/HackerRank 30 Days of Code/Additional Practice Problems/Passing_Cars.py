@@ -1,6 +1,7 @@
 """
-Codility Passing Cars Problem
+Passing Cars Problem
 Prefix Sum Practice
+by Codility
 
 Solution by B Hamilton 7/24/2018
 

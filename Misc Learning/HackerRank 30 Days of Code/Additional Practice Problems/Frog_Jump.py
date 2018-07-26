@@ -1,5 +1,6 @@
 """
 Frog Jump Problem
+by Codility
 
 Solution by B Hamilton 07242018
 
