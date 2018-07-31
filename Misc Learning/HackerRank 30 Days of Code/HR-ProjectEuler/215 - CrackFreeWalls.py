@@ -1,6 +1,7 @@
 # input()
 import itertools as it
 """
+WORK IN PROGRESS (solution not quite complete)
 
 arrangement
 ways of arranging 2 and 3 that sum to w
